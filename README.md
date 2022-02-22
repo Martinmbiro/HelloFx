@@ -1,6 +1,6 @@
 # HelloFx
 
-This project demonstrates the use of **JavaFx,** and **Scenebuilder,**to create a simple login window, with a little logic added to it.
+This project demonstrates the use of **JavaFx** and **Scenebuilder** to create a simple login window, with a little logic added to it.
 
 - Captures text entered as username and password
 - Checks whether the inputs converted to text are equal
@@ -8,15 +8,15 @@ This project demonstrates the use of **JavaFx,** and **Scenebuilder,**to create 
 
 ##Screenshots
 
-|<img src='shot/3.png' width='1000'/>|
+|<img src='shots/3.png' width='1000'/>|
 |:--:|
 |*Initial State*|
 
-|<img src='shot/1.png' width='1000'/>|
+|<img src='shots/1.png' width='1000'/>|
 |:--:|
 |*Invalid Credentials*|
 
-|<img src='shot/2.png' width='1000'/>|
+|<img src='shots/2.png' width='1000'/>|
 |:--:|
 |*Valid Credentials*|
 
