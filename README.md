@@ -6,7 +6,11 @@ This project demonstrates the use of **JavaFx** and **Scenebuilder** to create a
 - Checks whether the inputs converted to text are equal
 - Responds accordingly, by updating a Label and ImageView
 
-##Screenshots
+## Screenshots
+
+|<img src='shots/4.png' width='1000'/>|
+|:--:|
+|*Designing the layout on [SceneBuilder](https://gluonhq.com/products/scene-builder/)*|
 
 |<img src='shots/3.png' width='1000'/>|
 |:--:|
@@ -20,12 +24,12 @@ This project demonstrates the use of **JavaFx** and **Scenebuilder** to create a
 |:--:|
 |*Valid Credentials*|
 
-##Tools
+## Tools
 #### 1. [JavaFx](https://openjfx.io/)
 
 A platform for building GUI components using Java.
 
 
-#### 2. [Scenebuilder](https://gluonhq.com/products/scene-builder/)
+#### 2. [SceneBuilder](https://gluonhq.com/products/scene-builder/)
 
 A JavaFX desktop application that makes designing of GUI components on JavaFx easier, though drag and drop.

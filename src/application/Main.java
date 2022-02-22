@@ -13,8 +13,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			//Load the fxml file
-			Parent root = FXMLLoader.load(getClass().getResource("/login.fxml"));
-			
+			Parent root = FXMLLoader.load(getClass().getResource("/login.fxml"));			
 			Scene scene = new Scene(root,506,316);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
@@ -25,7 +24,9 @@ public class Main extends Application {
 			Image icon = new Image(getClass().getResourceAsStream("star.png"));
 			primaryStage.getIcons().add(icon);
 			
+			//Make sure the window isn't resizable
 			primaryStage.setResizable(false);
+			
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
