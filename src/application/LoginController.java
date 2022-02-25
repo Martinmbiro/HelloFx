@@ -18,7 +18,7 @@ public class LoginController {
 	@FXML
 	private PasswordField passwordField;
 	@FXML
-	private TextField usernameField;
+	private TextField userNameField;
 	
 	Image errorIcon = new Image(getClass().getResourceAsStream("error.png"));
 	Image successIcon = new Image(getClass().getResourceAsStream("check.png"));
@@ -27,12 +27,12 @@ public class LoginController {
 	public void onButtonClick() {
 		//System.out.println("Button Clicked");
 		//Check if UserName and Password are null
-		if(usernameField.getText().toString() == "" || passwordField.getText().toString() == "") {
+		if(userNameField.getText().toString() == "" || passwordField.getText().toString() == "") {
 			label.setText("Enter All Credentials");
 			imageView.setImage(errorIcon);
 		}else {
 			//Otherwise get text from both fields
-			String userName = usernameField.getText().toString().toLowerCase();
+			String userName = userNameField.getText().toString().toLowerCase();
 			String password = passwordField.getText().toString().toLowerCase();
 			
 			//If the UserName and password are same
